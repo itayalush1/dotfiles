@@ -211,3 +211,7 @@ exec_always gxkb
 
 #i3 config
 bindsym $mod+c exec atom .config/i3/config
+
+#polkit for kde apps's root popups
+exec_always /usr/lib/polkit-kde-authentication-agent-1
+

@@ -7,3 +7,7 @@ feel free to try this out though
 
 My custom chrome greeter is a slightly customized theme from a project called nightTab (https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki)
 highly reccomended for customizing chromium :)
+
+
+Direct link to wallapaer:
+https://wallpapersden.com/mountain-sunrise-8k-wallpaper/

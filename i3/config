@@ -88,9 +88,9 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -146,7 +146,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'u sure u wont to leave m8' -B 'Gladly, fine '' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'u sure u wont to leave m8' -B 'Gladly, fine sir' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -192,10 +192,10 @@ gaps outer 10
 for_window [class="^.*"] border pixel 0
 
 #wallpaper
-exec_always feh --bg-scale /home/itayalush/Downloads/wall.jpeg
+exec_always feh --bg-scale /home/itayalush/Downloads/wall.jpg
 
 #fetchcord
-exec_always fetchcord --nohardware --nohost --time 5
+exec_always fetchcord --nohardware --noshell --nohost
 
 #compositor
 exec_always picom
@@ -212,6 +212,11 @@ exec_always gxkb
 #i3 config
 bindsym $mod+c exec atom .config/i3/config
 
-#polkit for kde apps's root popups
+#polkit
 exec_always /usr/lib/polkit-kde-authentication-agent-1
 
+#flameshot
+exec_always flameshot
+
+#displays
+exec  xrandr --output DP-0 --auto --right-of HDMI-0

@@ -192,7 +192,7 @@ gaps outer 10
 for_window [class="^.*"] border pixel 0
 
 #wallpaper
-exec_always feh --bg-scale /home/itayalush/Downloads/wall.jpg
+exec_always nitrogen --restore
 
 #fetchcord
 exec_always fetchcord --nohardware --noshell --nohost
@@ -206,17 +206,18 @@ floating_modifier Mod1
 #albert
 exec_always albert
 
-#hebrew language
-exec_always gxkb
-
 #i3 config
 bindsym $mod+c exec atom .config/i3/config
 
 #polkit
-exec_always /usr/lib/polkit-kde-authentication-agent-1
+exec_always /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
 #flameshot
 exec_always flameshot
 
 #displays
 exec  xrandr --output DP-0 --auto --right-of HDMI-0
+
+# languige switching
+exec_always setxkbmap -layout us,il
+exec_always setxkbmap -option 'grp:alt_shift_toggle'

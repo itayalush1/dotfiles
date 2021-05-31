@@ -3,8 +3,7 @@
 #MAJOR UPDATE!
 switched to OpenSUSE!
 new distro means new setup, so here I am!
-changed background, bought new display, lots of big
-updates coming at ya fast. the entire theme essetialy has been changed.
+changed background, bought new display, lots of stuff. the entire theme essetialy has been changed.
 I did not keep the old one since i feel like that was merely an entry point
 to ricing, now i'm starting to put thought into it and making it better.
 next time I switch I will create a new project so that this theme stays.
